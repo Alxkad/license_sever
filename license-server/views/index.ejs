@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>License Management</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <h1>License Management System</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/create">Create License</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>License List</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Email</th>
+          <th>License Key</th>
+          <th>Expiration Date</th>
+          <th>Status</th>
+          <th>MAC Address</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% licenses.forEach(function(license) { %>
+          <tr>
+            <td><%= license.email %></td>
+            <td><%= license.licenseKey %></td>
+            <td><%= license.expirationDate %></td>
+            <td><%= license.status %></td>
+            <td><%= license.macAddress %></td>
+          </tr>
+        <% }); %>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>

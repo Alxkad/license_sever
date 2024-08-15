@@ -1,0 +1,37 @@
+[
+  {
+    "email": "meti@gmail.com",
+    "licenseKey": "EA68E68D567BA3CA",
+    "expirationDate": "2024-12-21",
+    "status": "active",
+    "macAddress": "00:0c:29:ed:90:7b"
+  },
+  {
+    "email": "jorgerangelran@gmail.com",
+    "licenseKey": "0514EDCB098559AC",
+    "expirationDate": "2025-12-12",
+    "status": "active",
+    "macAddress": "00:0c:29:ed:90:7b"
+  },
+  {
+    "email": "meandyou@gmail.com",
+    "licenseKey": "DB89A27AA92C101D",
+    "expirationDate": "2025-12-12",
+    "status": "active",
+    "macAddress": "00:0c:29:ed:90:7b"
+  },
+  {
+    "email": "Godhelpme@gmail.com",
+    "licenseKey": "B03743D84037A88E",
+    "expirationDate": "2025-12-12",
+    "status": "active",
+    "macAddress": "00:0c:29:ed:90:7b"
+  },
+  {
+    "email": "mememew2mme@gmail.com",
+    "licenseKey": "83CF36FCD979A9A0",
+    "expirationDate": "2024-09-12",
+    "status": "active",
+    "macAddress": ""
+  }
+]
